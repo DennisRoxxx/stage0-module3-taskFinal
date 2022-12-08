@@ -1,16 +1,14 @@
 package lang.print.gaps.finalModuleTask;
-import java.math.BigDecimal;
-
 
 public class TemperatureConverter {
     public void toFahrenheit(int temperatureCelsius){
         
-        int temperatureFahrenheit = 1;
-        temperatureCelsius = ((temperatureFahrenheit * 9 / 5) + 32);
+    temperatureCelsius = 1;
 
-        BigDecimal x = new BigDecimal(temperatureCelsius);
-        x = BigDecimal.valueOf((((double)temperatureFahrenheit * 9 / 5) + 32));
 
-        System.out.printf("%.1f %n", x);
+        double temperatureFahrenheit = (((double) temperatureCelsius * 9 / 5) + 32);
+
+
+        System.out.printf("%.1f %n", temperatureFahrenheit);
     }
 }
