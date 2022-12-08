@@ -9,6 +9,6 @@ public class TemperatureConverter {
         double temperatureFahrenheit = (((double) temperatureCelsius * 9 / 5) + 32);
 
 
-        System.out.printf("%.1f %n", temperatureFahrenheit);
+        System.out.println(temperatureFahrenheit);
     }
 }
